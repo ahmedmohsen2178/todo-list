@@ -8,7 +8,7 @@ import Login from './components/Login'
 import ProtectRoutes from './components/ProtectRoutes'
 
 function App() {
-
+const isAuthentected = localStorage.getItem("token")
   return (
     <BrowserRouter>
       <Routes>
